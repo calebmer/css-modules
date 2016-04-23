@@ -1,6 +1,6 @@
 ## Composition
 
-It's possible to compose selectors.
+It's possible to compose selectors using the at rule `@composes`.
 
 ``` css
 .className {
@@ -9,7 +9,7 @@ It's possible to compose selectors.
 }
 
 .otherClassName {
-  composes: className;
+  @composes className;
   color: yellow;
 }
 ```
